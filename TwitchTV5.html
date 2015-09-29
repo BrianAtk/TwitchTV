@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="TwitchTV5.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container" id="main">
+
+        <div class="row" id="moreInfo">
+            <div class="col-sm-8">
+                <h1>Twitch TV</h1>
+                <div class="tabbable tabColor">
+                    <ul class="nav nav-tabs ">
+                        <li class="active"><a href="#tab1" data-toggle="tab">All</a></li>
+                        <li><a href="#tab2" data-toggle="tab">Online</a></li>
+                        <li><a href="#tab3" data-toggle="tab">Offline</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab1">
+
+                            <div class='offline'>OFFLINE</div>
+                            <div class='online'>ONLINE</div>
+                            <div class='messages'>MESSAGES</div>
+                        </div>
+                        <!-- end tab-pane -->
+
+                        <div class="tab-pane" id="tab2">
+                            <div class='online'></div>
+
+                        </div>
+                        <!-- end tab-pane -->
+                        <div class="tab-pane" id="tab3">
+                            <div class='offline'></div>
+                        </div>
+                        <!-- end tab-pane -->
+                    </div>
+                    <!-- end tab-content -->
+                </div>
+                <!-- end tabbable -->
+            </div>
+            <!-- end col-sm-8 -->
+        </div>
+        <!-- end col-sm-8 -->
+    </div>
+    <!--end row -->
+<!--    <script src="TwitchTV5.js"></script>-->
+    <script src="Twitch5b.js"></script>
+</body>
+</html>
