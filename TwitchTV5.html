@@ -14,12 +14,22 @@
         <div class="row" id="moreInfo">
             <div class="col-sm-8">
                 <h1>Twitch TV</h1>
+
                 <div class="tabbable tabColor">
                     <ul class="nav nav-tabs ">
                         <li class="active"><a href="#tab1" data-toggle="tab">All</a></li>
                         <li><a href="#tab2" data-toggle="tab">Online</a></li>
                         <li><a href="#tab3" data-toggle="tab">Offline</a></li>
+
+                        <li>
+                            <input type="text" class="searchText" name="search" /></li>
+                        <li>
+                            <input type="button" class="searchButton" value="Search" name="doSearch" /></li>
+                        <li>
+                            <input type="button" class="clearButton" value="Clear Search" /></li>
                     </ul>
+
+                    <div class="textMessage"></div>
                     <div class="tab-content">
                         <div class="tab-pane active" id="tab1">
 
@@ -35,7 +45,8 @@
                         </div>
                         <!-- end tab-pane -->
                         <div class="tab-pane" id="tab3">
-                            <div class='offline'></div>
+                            <div class='offline'>
+                            </div>
                         </div>
                         <!-- end tab-pane -->
                     </div>
@@ -48,7 +59,7 @@
         <!-- end col-sm-8 -->
     </div>
     <!--end row -->
-<!--    <script src="TwitchTV5.js"></script>-->
+
     <script src="Twitch5b.js"></script>
 </body>
 </html>
