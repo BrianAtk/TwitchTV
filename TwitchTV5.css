@@ -1,78 +1,85 @@
 body {
+  background-color: black;
 }
 
-
+h1 {
+  color: white;
+}
 
 .online {
-    font-family: 'Times New Roman';
-    font-size: 15px;
-    position: relative;
-    top: 20px;
-    color: blue;
-    padding-top: 15px;
-    margin-top: 15px;
+  font-family: 'Times New Roman';
+  font-size: 15px;
+  position: relative;
+  top: 20px;
+  color: black;
+  padding-top: 15px;
+  margin-top: 15px;
+
 }
 
 .offline {
-    font-family: 'Times New Roman';
-    font-size: 15px;
-    position: relative;
-    top: 20px;
-    color: blue;
+  font-family: 'Times New Roman';
+  font-size: 15px;
+  position: relative;
+  top: 20px;
+  color: black;
 }
 
 .messages {
-    color: blue;
-    font-family: 'Times New Roman';
-    font-size: 15px;
-    margin-top: 15px;
-    position: relative;
-    padding-top: 10px;
-    top: 20px;
+  color: black;
+  font-family: 'Times New Roman';
+  font-size: 15px;
+  margin-top: 15px;
+  position: relative;
+  padding-top: 10px;
+  top: 20px;
 }
 
 .black {
-    color: black;
+  color: black;
 }
 
 .twitchLogo {
-    width: 115px;
-    height: 95px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
+  width: 80px;
+  height: 75px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  border-radius: 50px;
 }
 
-
 .searchText {
-    margin-top: 10px;
-    margin-left: 80px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .searchButton {
-    margin-top: 10px;
-    height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 25px;
 }
 
 .clearButton {
-    margin-top:10px;
-    height: 25px;
+  margin-top: 10px;
+  
+  height: 25px;
 }
+
 .textMessage {
-    height: 24px;
-    margin-left: 280px;
+  height: 24px;
+  margin-left: 280px;
 }
 
 .tabColor {
-    background-color: pink;
+  background-color: white;
 }
 
 .cardSize {
-    font-family: "Times New Roman";
-    font-size: 20px;
-    padding-left: 25px;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  padding-left: 25px;
 }
 
 .tab-content {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
